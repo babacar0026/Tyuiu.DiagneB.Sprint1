@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A8FCECA8-13CD-4C4F-A2A9-874C7A5E0892}</ProjectGuid>
+    <ProjectGuid>{7084CAD7-B94D-4459-836B-C8864E94DF9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.DiagneB.Sprint1.Task0.V0</RootNamespace>
-    <AssemblyName>Tyuiu.DiagneB.Sprint1.Task0.V0</AssemblyName>
+    <RootNamespace>Tyuiu.DiagneB.Sprint1.Task0.V29</RootNamespace>
+    <AssemblyName>Tyuiu.DiagneB.Sprint1.Task0.V29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.DiagneB.Sprint1.Task0.V0.Lib\Tyuiu.DiagneB.Sprint1.Task0.V0.Lib.csproj">
-      <Project>{f58457db-c56a-44a9-8fd5-8b0d6acccfe1}</Project>
-      <Name>Tyuiu.DiagneB.Sprint1.Task0.V0.Lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

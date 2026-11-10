@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F58457DB-C56A-44A9-8FD5-8B0D6ACCCFE1}</ProjectGuid>
+    <ProjectGuid>{F8C15048-0346-45A1-B8F1-CDEF6122C97F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.DiagneB.Sprint1.Task0.V0.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.DiagneB.Sprint1.Task0.V0.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.DiagneB.Sprint1.Task0.V29.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.DiagneB.Sprint1.Task0.V29.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -39,13 +39,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataService.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.DiagneB.Sprint1.Task0.V29\Tyuiu.DiagneB.Sprint1.Task0.V29.csproj">
+      <Project>{7084cad7-b94d-4459-836b-c8864e94df9d}</Project>
+      <Name>Tyuiu.DiagneB.Sprint1.Task0.V29</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

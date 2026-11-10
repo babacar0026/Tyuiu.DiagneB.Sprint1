@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/Task0/">
-    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V0.Lib/Tyuiu.DiagneB.Sprint1.Task0.V0.Lib.csproj" />
-    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V0.Test/Tyuiu.DiagneB.Sprint1.Task0.V0.Test.csproj" />
-    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V0/Tyuiu.DiagneB.Sprint1.Task0.V0.csproj" />
+    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V29.Lib/Tyuiu.DiagneB.Sprint1.Task0.V29.Lib.csproj" Id="f8c15048-0346-45a1-b8f1-cdef6122c97f" />
+    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V29.Test/Tyuiu.DiagneB.Sprint1.Task0.V29.Test.csproj" Id="2d0b10d3-3b98-44a8-bd17-033704a3b1d1" />
+    <Project Path="Tyuiu.DiagneB.Sprint1.Task0.V29/Tyuiu.DiagneB.Sprint1.Task0.V29.csproj" Id="7084cad7-b94d-4459-836b-c8864e94df9d" />
   </Folder>
 </Solution>
