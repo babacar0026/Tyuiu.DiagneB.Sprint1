@@ -44,11 +44,5 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.DiagneB.Sprint1.Task0.V29\Tyuiu.DiagneB.Sprint1.Task0.V29.csproj">
-      <Project>{7084cad7-b94d-4459-836b-c8864e94df9d}</Project>
-      <Name>Tyuiu.DiagneB.Sprint1.Task0.V29</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
